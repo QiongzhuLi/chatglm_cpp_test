@@ -7,11 +7,18 @@ from pydantic import BaseModel
 from chatglm_cpp import Pipeline, ChatMessage
 import logging
 
-
+# Configure the logging settings as needed
+logging.basicConfig(
+    level=logging.INFO,  # Set the logging level to INFO or desired level
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.StreamHandler(),  # Log to the console (you can also log to a file)
+    ]
+)
 
 parent_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 model_file_path = os.path.join(parent_directory, "var/tmp","chatglm-ggml.bin")
-logging.info(f"{model_file_path}")
+logging.info(f"here is model_file_path: {model_file_path}")
 path = Path(__file__).parent
 
 app = FastAPI()
