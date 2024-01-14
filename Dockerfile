@@ -26,7 +26,7 @@ RUN \
 COPY . /app/
 
 # Make port 80 available to the world outside this container
-EXPOSE 8000
+EXPOSE 80
 
 # Run app.py when the container launches
 CMD ["python3", "app/main.py"]
