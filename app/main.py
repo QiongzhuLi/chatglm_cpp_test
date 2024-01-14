@@ -5,11 +5,13 @@ import chatglm_cpp
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from chatglm_cpp import Pipeline, ChatMessage
+import logging
+
 
 
 parent_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 model_file_path = os.path.join(parent_directory, "var/tmp","chatglm-ggml.bin")
-print(model_file_path)
+logging.info(f"{model_file_path}")
 path = Path(__file__).parent
 
 app = FastAPI()
