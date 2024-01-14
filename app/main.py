@@ -16,7 +16,7 @@ logging.basicConfig(
     ]
 )
 
-parent_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+parent_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 model_file_path = os.path.join(parent_directory, "var/tmp","chatglm-ggml.bin")
 logging.info(f"here is model_file_path: {model_file_path}")
 path = Path(__file__).parent
