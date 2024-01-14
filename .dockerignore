@@ -1,0 +1,34 @@
+# Ignore version control directories and files
+.git
+.gitignore
+
+# Ignore Python bytecode files
+__pycache__
+
+# Ignore development and testing artifacts
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.tmp
+*.swp
+*.sqlite3
+
+# Ignore editor-specific files
+.vscode
+.idea
+
+# Ignore local virtual environment directories (if using venv or virtualenv)
+venv/
+env/
+.env/
+
+# Ignore compiled Python files and build artifacts
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/qiongzhuli/Documents/gpt/chatglm.cpp/build/third_party/ggml/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_BUILD -DGGML_CUDA_MMV_Y=2 -DGGML_SHARED -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/include/ggml -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/. -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/../include -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fPIC -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml.c.o -c /Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/ggml.c",
+  "file": "/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/ggml.c",
+  "output": "third_party/ggml/src/CMakeFiles/ggml.dir/ggml.c.o"
+},
+{
+  "directory": "/Users/qiongzhuli/Documents/gpt/chatglm.cpp/build/third_party/ggml/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_BUILD -DGGML_CUDA_MMV_Y=2 -DGGML_SHARED -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/include/ggml -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/. -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/../include -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fPIC -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml-alloc.c.o -c /Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/ggml-alloc.c",
+  "file": "/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/ggml-alloc.c",
+  "output": "third_party/ggml/src/CMakeFiles/ggml.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/Users/qiongzhuli/Documents/gpt/chatglm.cpp/build/third_party/ggml/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGGML_BUILD -DGGML_CUDA_MMV_Y=2 -DGGML_SHARED -DGGML_USE_ACCELERATE -D_DARWIN_C_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/include/ggml -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/. -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/../include -I/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/../include/ggml -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fPIC -Wall -Wpedantic -Wformat=2 -Wno-unused -Wstrict-prototypes -Werror=vla -Wunused -Wextra -Wcast-qual -Wdouble-promotion -Wshadow -Wno-unused-function -Wmissing-prototypes -o CMakeFiles/ggml.dir/ggml-backend.c.o -c /Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/ggml-backend.c",
+  "file": "/Users/qiongzhuli/Documents/gpt/chatglm.cpp/third_party/ggml/src/ggml-backend.c",
+  "output": "third_party/ggml/src/CMakeFiles/ggml.dir/ggml-backend.c.o"
+}
+]
