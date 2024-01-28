@@ -9,7 +9,7 @@ services:
   disk:
     name: var_tmp
     mountPath: '/app/models'
-    sizeGB: 10 # Size of the disk in GB; adjust as needed
+    sizeGB: 5 # Size of the disk in GB; adjust as needed
   ports:
     - port: 8000
       protocol: http
