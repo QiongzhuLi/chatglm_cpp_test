@@ -2,10 +2,10 @@ import uvicorn
 from pathlib import Path
 import os
 import chatglm_cpp
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException,Depends
 from pydantic import BaseModel
-from chatglm_cpp import Pipeline, ChatMessage
 import logging
+import argparse
 
 # Configure the logging settings as needed
 logging.basicConfig(
@@ -16,10 +16,10 @@ logging.basicConfig(
     ]
 )
 
-parent_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-model_file_path = os.path.join(parent_directory, "var/tmp","chatglm-ggml.bin")
+parent_directory = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+model_file_path = os.path.join(parent_directory, "models","chatglm-ggml.bin")
 logging.info(f"here is model_file_path: {model_file_path}")
-path = Path(__file__).parent
+
 
 app = FastAPI()
 
