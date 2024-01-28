@@ -1,0 +1,15 @@
+services:
+- type: web
+  name: chatglm-cpp-c
+  env: docker
+  dockerfilePath: './Dockerfile' # Path to your Dockerfile, assuming it's in the same directory
+  envVars:
+    - key: PORT
+      value: '8000'
+  disk:
+    name: var_tmp
+    mountPath: '/app/models'
+    sizeGB: 10 # Size of the disk in GB; adjust as needed
+  ports:
+    - port: 8000
+      protocol: http
