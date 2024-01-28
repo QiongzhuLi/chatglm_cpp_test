@@ -11,5 +11,5 @@ services:
     mountPath: '/app/models'
     sizeGB: 5 # Size of the disk in GB; adjust as needed
   ports:
-    - port: 8000
+    - port: 8001
       protocol: http

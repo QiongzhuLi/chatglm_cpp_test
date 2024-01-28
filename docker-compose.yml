@@ -7,4 +7,4 @@ services:
     volumes:
       - /Users/qiongzhuli/Documents/gpt/chatglm_cpp_test/models/:/app/models/
     ports:
-      - "8000:8000"
+      - "8001:8000"
