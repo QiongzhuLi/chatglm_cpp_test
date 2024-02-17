@@ -21,13 +21,16 @@ python3 chatglm_cpp/convert.py -i THUDM/chatglm3-6b -t q4_0 -o chatglm-ggml.bin
 ```
 
 
-In case of failure, create a 'THUDM/chatglm3-6b' folder within your 'chatglm.cpp' directory and manually download all files from [here](https://huggingface.co/THUDM/chatglm3-6b/tree/). Then, rerun the conversion process:
+In case of failure, create a 'THUDM/chatglm3-6b' folder within your 'chatglm.cpp' directory and manually download all files from [here](https://huggingface.co/THUDM/chatglm3-6b/tree/main). Then, rerun the conversion process:
 
 ```bash
 python3 chatglm_cpp/convert.py -i THUDM/chatglm3-6b -t q4_0 -o chatglm-ggml.bin
 ```
 
 Following the successful completion of the conversion, you'll acquire a file named "chatglm-ggml.bin," ready for sharing or utilization in establishing personalized services.
+
+
+
 
 ## Local machine deployment
 To deploy the model on your local machine, follow these steps:
@@ -57,6 +60,7 @@ You can test the functionality of your API using tools such as "thunder light" i
 ![alt text](pics/image.png)
 
 
+
 ## Docker Deployment
 I've crafted a basic version of a Dockerfile to facilitate the creation of your Docker image. You can build your image by executing:
 ```
@@ -70,7 +74,6 @@ or
 ```
 docker-compose up
 ```
-
 
 ### Error handling
 If you encounter errors during the deployment process, follow these steps for resolution:
